@@ -3,3 +3,7 @@
 - # Architecture
   <img src="https://github.com/ahmedkotb98/GAN-BERT/blob/main/images/ganbert.jpeg" width="600" height="600" />
 
+## Training
+
+- run notebook to train model and save your model and convert it to onnx format
+

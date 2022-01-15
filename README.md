@@ -9,7 +9,7 @@
 
 ## How to run the app
 
-After installing necessary packages, use the following command to run the app from project root directory-
+After installing necessary packages and don't forget to add onnx model in models folder, use the following command to run the app from project root directory-
   
 ```
 uvicorn app.main:app

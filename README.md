@@ -15,3 +15,15 @@ After installing necessary packages, use the following command to run the app fr
 uvicorn app.main:app
 ```
 And visit http://127.0.0.1:8000/docs from your browser. You will be able to see swagger.
+
+## How to run the app with docker
+
+Make sure you are in the project root directory and you have started docker. Then create docker image using the following command.
+
+```
+docker-compose up --build
+```
+
+## Reference
+
+- https://github.com/crux82/ganbert

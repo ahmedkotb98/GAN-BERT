@@ -1,0 +1,9 @@
+version: '3'
+services: 
+    core_api:
+        build: .
+        container_name: "image-api-container"
+        ports: 
+            - "8000:80"
+        volumes: 
+            - ./app/:/app
